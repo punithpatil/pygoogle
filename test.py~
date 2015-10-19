@@ -1,0 +1,4 @@
+import re
+target = open('output.txt','r').read()	
+for para in re.findall('<p>(.*?)</p>', target, re.DOTALL):
+	print re.sub("(\<.*?\>)", "",para)

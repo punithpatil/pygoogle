@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="ie ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en">         <!--<![endif]-->
+<head>
+<title>Earthquakes</title>
+<!-- 151019,134618,1 -->
+	<script type="text/javascript" src="/template/js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="/template/js/master_20150623.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="aftershock,earthquake,epicenter,fault,foreshock,geologist,geophysics,hazard,hypocenter,intensity,intensity scale,magnitude,magnitude scale,mercalli,plate,richter,seismic,seismicity,seismogram,seismograph,seismologist,seismology,subduction,tectonics,tsunami,quake,sismologico,sismologia"/>
+<meta name="google-site-verification" content="5Bw3LIEvwx8C0JA5hWKosAweW7kXIw0LS5OR438MOqU" />
+<meta name="description" content="USGS Earthquake Hazards Program, responsible for monitoring, reporting, and researching earthquakes and earthquake hazards"/>
+
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="/template/css/ietextonly.css" type="text/css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 7]><!-->
+	<link rel="stylesheet" type="text/css" media="all" href="/template/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" media="all" href="/template/css/master.css"/>
+<!--<![endif]-->
+
+<link rel="stylesheet" media="print" type="text/css" href="/template/css/print.css" />
+
+<!--[if gte IE 7]><!--><link rel="stylesheet" type="text/css" href="/template/widgets/ui/ui.css"/><link rel="stylesheet" type="text/css" href="/template/widgets/tipsy/tipsy.css"/><link rel="stylesheet" type="text/css" href="/css/pager.css"/><link rel="stylesheet" type="text/css" href="/css/mmi.css"/><link rel="stylesheet" type="text/css" href="/earthquakes/main.css"/><!--<![endif]--></head>
+
+<body>
+
+<div id="header"><div id="usgsbanner"><div>
+	<a href="http://www.usgs.gov/"><img src="/template/images/usgs.jpg" alt="USGS - science for a changing world" title="U.S. Geological Survey Home Page" /></a>
+	<ul>
+		<li><a href="http://www.usgs.gov/">USGS Home</a></li>
+		<li><a href="http://answers.usgs.gov/cgi-bin/gsanswers?tmplt=2/">Contact USGS</a></li>
+		<li><a href="http://search.usgs.gov/">Search USGS</a></li>
+	</ul>
+</div></div>
+
+<div id="usgstitle"><div>
+	<p><a href="/">Earthquake Hazards Program</a></p>
+	<ul id="utilities">
+	<li class="invisiblelink"><a href="#startcontent" class="invisiblelink">Skip to main content</a></li>
+<li><a href="/">Home</a></li><li><a href="/aboutus/">About Us</a></li><li><a href="/contactus/">Contact Us</a></li>	<li id="search">
+	
+		<form method="get" action="http://www.google.com/search" id="header-search-form" target="_blank" class="search-form">
+			<span class="search-wrap">
+				<input type="text" name="q" size="10" maxlength="50" title="Search Text" class="search-text" />
+				<input type="image" src="/template/images/sbox_button.gif" alt="Search" class="search-button" />
+			</span>
+			<input type="hidden" name="q" value="site:earthquake.usgs.gov" class="search-siteonly" />
+		</form>
+	</li>
+	</ul>
+</div>
+</div>
+
+</div>
+
+<hr />
+<div id="sitenav"><ul><li><strong><a href="/earthquakes/?source=sitenav">Earthquakes</a></strong></li><li><a href="/hazards/?source=sitenav">Hazards</a></li><li><a href="/data/?source=sitenav">Data<span style="font-size: .85em;"> &amp; </span>Products</a></li><li><a href="/learn/?source=sitenav">Learn</a></li><li><a href="/monitoring/?source=sitenav">Monitoring</a></li><li><a href="/research/?source=sitenav">Research</a></li></ul>
+</div>
+<hr />
+
+<div id="content">
+  <a id="startcontent"></a>
+
+  <h1>Earthquakes</h1>
+
+
+<div class="four column">
+	<h2 style="margin-bottom:0;">
+		 <a href="/earthquakes/map/#%7B%22feed%22%3A%2230day_sig%22%2C%22search%22%3Anull%2C%22sort%22%3A%22newest%22%2C%22basemap%22%3A%22grayscale%22%2C%22autoUpdate%22%3Atrue%2C%22restrictListToMap%22%3Atrue%2C%22timeZone%22%3A%22local%22%2C%22mapposition%22%3Anull%2C%22overlays%22%3A%7B%22plates%22%3Atrue%7D%2C%22viewModes%22%3A%7B%22map%22%3Atrue%2C%22list%22%3Atrue%2C%22settings%22%3Atrue%2C%22help%22%3Afalse%7D%7D">
+			Significant Earthquakes 
+			<span class="subtext">Past 30 Days</span>
+		</a>
+	</h2>
+	<div id="significant-earthquakes" class="height_scroll"></div>
+
+	</div>
+
+<div class="four column">
+
+	<h2>Today&rsquo;s Earthquake Fact</h2>
+	<p>A 
+<b>seiche</b> (pronounced SAYSH) 
+is "an internal wave oscillating 
+in a body of water" or, in other words, it is the sloshing of 
+the water in any body of water, caused 
+by the ground shaking in an earthquake. It may continue for 
+a few moments or hours, long after the generating force is gone. 
+A seiche can also be caused by wind or tides.
+</p>	
+	<h2>Today in Earthquake History</h2>
+	<img src="/images/calendar.jpg" width="64" height="41" alt="calendar
+			icon" class="left" />
+	<p><strong>October 19, 1991</strong><br/>M 6.8, India &ndash; Local time: October 20.
+
+One of the world's deadliest earthquakes.
+
+Two events about&hellip; <a style="font-size:.9em;" href="/learn/today/">Read More</a></p>	
+</div>
+
+<div class="four column">
+
+<!-- M2.5+ PAST DAY -->
+
+	<h2 style="margin-bottom:0;">
+		<a href="/earthquakes/map/#%7B%22feed%22%3A%221day_m25%22%2C%22search%22%3Anull%2C%22sort%22%3A%22newest%22%2C%22basemap%22%3A%22grayscale%22%2C%22autoUpdate%22%3Atrue%2C%22restrictListToMap%22%3Atrue%2C%22timeZone%22%3A%22local%22%2C%22mapposition%22%3Anull%2C%22overlays%22%3A%7B%22plates%22%3Atrue%7D%2C%22viewModes%22%3A%7B%22map%22%3Atrue%2C%22list%22%3Atrue%2C%22settings%22%3Atrue%2C%22help%22%3Afalse%7D%7D">Magnitude 2.5+ Earthquakes
+			<span class="subtext">Past Day</span>
+		</a>
+	</h2>
+<div id="m2pastDay-earthquakes" class="height_scroll" ></div>
+
+</div>
+
+<div class="clear"></div>
+<!-- BOTTOM AREA OF WEBPAGE -->
+
+<div class="column container contains-twelve">
+<h2>Real-time &amp; Historical Earthquake Information</h2>
+</div>
+
+<div class="four column">
+
+<ul class="quicklinks">
+
+	<!-- Latest EQs -->
+	<li class="realtime-map">
+		<a href="/earthquakes/map/">
+			<h3>Latest Earthquakes</h3>
+			<img src="/images/mobile-friendly_sm.gif" alt="mobile-friendly" style="
+			    float: left;
+			    margin-right: 5px;
+			    margin-top: 3px;">
+			<span>
+				View recent events or search for past earthquakes.
+				<span class="disclaimer">Optimized for mobile and desktop.</span>
+			</span>
+		</a>
+	</li>	
+	<!-- Feeds -->
+	<li class="realtime-data">
+		<a href="/earthquakes/feed/">
+			<h3>Real-time Feeds &amp; Notifications</h3>
+			<span>
+				Get real&#45;time earthquake notifications sent to you using a number of
+				popular mediums: Feeds, Email, Twitter etc.&hellip;
+			</span>
+		</a>
+	</li>
+	
+	<!-- Search -->
+	<li class="eq-search">
+		<a href="/earthquakes/search/">
+			<h3>Search Earthquake Archives</h3>
+			<span>
+				Online catalog search.
+			</span>
+		</a>
+	</li>
+
+</ul>
+
+	<p><a href="/earthquakes/eqinthenews/">Significant Earthquake Archive</a></p>
+	<p><a href="errata.php">Errata for Latest Earthquakes</a></p>
+</div>
+
+<div class="four column">
+<ul class="quicklinks">
+
+	<!-- Info-By-... -->
+	<li class="eq-infoby">
+		<a href="/earthquakes/region.php">
+			<h3>Info by Region</h3>
+			<span>
+				By state or territory.
+			</span>
+		</a>
+	</li>
+
+		</a>
+	</li>
+
+	<!-- World Seismicity -->	
+	<li class="eq-worldseis">
+		<a href="/earthquakes/world/seismicity_maps/">
+			<h3>World Seismicity Maps</h3>
+			<span>
+				Entire world and regional maps.
+			</span>
+
+		</a>
+	</li>
+
+	<!-- Top Ten -->
+	<li class="eq-topten">
+		<a href="/earthquakes/eqarchives/">
+			<h3>Earthquake &ldquo;Top 10&rdquo; Lists &amp; Maps</h3>
+			<span>
+				Earthquake lists, maps, and statistics.
+			</span>
+		</a>
+	</li>
+</ul>
+
+</div>
+
+<div class="four column">
+<ul class="quicklinks">
+
+	<!-- DYFI? -->
+	<li class="realtime-dyfi">
+		<a href="/earthquakes/dyfi/">
+			<h3>Did You Feel It?</h3>
+			<span>
+				Feel an earthquake? Report it here.
+			</span>
+		</a>
+	</li>
+
+	<!-- Shakemaps -->	
+	<li class="eq-shakemap">
+		<a href="/earthquakes/shakemap/">
+			<h3>ShakeMap</h3>
+			<span>
+				Earthquake shaking maps and data.
+			</span>
+
+		</a>
+	</li>
+
+	<!-- Pager -->	
+	<li class="eq-pager">
+		<a href="/earthquakes/pager/">
+			<h3>PAGER</h3>
+			<span>
+				Estimates of earthquake impacts, monetary and human losses.
+			</span>
+
+		</a>
+	</li>
+
+</ul>
+</div>
+
+<!-- SCRIPT FOR SIGNIFICANT EQ LIST -->
+<script>
+$(function () {
+	require.config({
+		baseUrl: '/'
+	});
+
+	require([
+		'eqlist/EqList'
+	], function (
+		EqList
+	) {
+	$(document).ready(function (e) {
+		new EqList(document.getElementById('significant-earthquakes'));
+		new EqList(document.getElementById('m2pastDay-earthquakes'),
+			'/earthquakes/feed/v1.0/summary/2.5_day.geojsonp');
+		});
+	});
+});
+</script>
+</div>
+
+<hr />
+
+<div id="content_footer">
+
+
+<div id="share">
+  <p>Share this page:</p>
+  <ul>
+    <li class="facebook"><a class="offsite" rel="nofollow" href="http://www.facebook.com/sharer.php?t=Earthquakes&amp;u=http%3A%2F%2Fearthquake.usgs.gov%2Fearthquakes%2F" title="Share on Facebook">Facebook</a></li>    <li class="twitter"><a class="offsite" rel="nofollow" href="http://twitter.com/share?text=Earthquakes+%28via+%40usgs%29&amp;url=http%3A%2F%2Fearthquake.usgs.gov%2Fearthquakes%2F" title="Share on Twitter">Twitter</a></li>    <li class="googlemarks"><a class="offsite" rel="nofollow" href="https://www.google.com/bookmarks/mark?op=add&amp;title=Earthquakes&amp;annotation=&amp;nui=1&amp;service=bookmarks&amp;bkmk=http%3A%2F%2Fearthquake.usgs.gov%2Fearthquakes%2F" title="Share on Google">Google</a></li>    <li class="email"><a class="offsite" rel="nofollow" href="mailto:?subject=Earthquakes&amp;body=http%3A%2F%2Fearthquake.usgs.gov%2Fearthquakes%2F" title="Share on Email">Email</a></li>  </ul>
+</div>
+
+</div>
+<hr />
+
+<div id="sitemap">
+  <ul>
+    <li>
+      <a href="/earthquakes/?source=sitemap" class="first">Earthquakes</a>
+      <ul>
+        <li><a href="/earthquakes/map/">Latest Earthquakes</a></li>
+        <li><a href="/earthquakes/feed/">Real&#45;time Feeds &amp; Notifications</a></li>
+        <li><a href="/earthquakes/search/">Search EQ Archives</a></li>
+        <li><a href="/earthquakes/region.php">Info by Region</a></li>
+        <li><a href="/earthquakes/world/seismicity_maps/">World Seismicity Maps</a></li>
+        <li><a href="/earthquakes/eqarchives/">&ldquo;Top 10&rdquo; Lists &amp; Maps</a></li>
+        <li><a href="/earthquakes/dyfi/">Did You Feel It?</a></li>
+        <li><a href="/earthquakes/shakemap/">ShakeMap</a></li>
+        <li><a href="/earthquakes/pager/">PAGER</a></li>
+        <li><a href="/earthquakes/eqinthenews/">Significant EQ Archive</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="/hazards/?source=sitemap">Hazards</a>
+      <ul>
+        <li><a href="/hazards/products/">Hazard Maps &amp; Data</a></li>
+        <li><a href="/hazards/designmaps/">Seismic Design</a></li>
+        <li><a href="/hazards/apps/">Hazard Analysis Tools</a></li>
+        <li><a href="/hazards/qfaults/">Faults</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="/data/?source=sitemap">Data<span style="font-size: .85em;"> &amp; </span>Products</a>
+      <ul>
+        <li><a href="/data/">Data</a></li>
+        <li><a href="/data/products/">Products</a></li>
+
+      </ul>
+    </li>
+    <li>
+      <a href="/learn/?source=sitemap">Learn</a>
+      <ul>
+        <li><a href="/learn/topics/">EQ Topics for Education</a></li>
+        <li><a href="http://www.usgs.gov/faq/?q=taxonomy/term/9762"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+        <li><a href="/learn/glossary/">EQ Glossary</a></li>
+        <li><a href="/learn/kids/">For Kids</a></li>
+        <li><a href="/learn/kml.php">Google Earth/KML Files</a></li>        
+        <li><a href="/earthquakes/eqarchives/poster/">EQ Summary Posters</a></li>
+        <li><a href="/learn/photos.php">Photos</a></li>
+        <li><a href="/learn/publications/">Publications</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="/monitoring/?source=sitemap">Monitoring</a>
+      <ul>
+        <li><a href="/contactus/golden/neic.php">NEIC</a></li>
+        <li><a href="/monitoring/anss/"><abbr title="Advanced National Seismic System">ANSS</abbr> &ndash; United States</a></li>
+        <li><a href="/monitoring/gsn/"><abbr title="Global Seismic Network">GSN</abbr> &ndash; World</a></li>
+        <li><a href="/monitoring/volunteer/">Volunteer Monitoring</a></li>
+        <li><a href="/regional/asl/"><abbr title="Albuquerque Seismo Lab">ASL</abbr> &ndash; Albuquerque</a></li>
+        <li><a href="/monitoring/operations/">Network Operations</a></li>
+        <li><a href="/monitoring/helicorders.php">Seismogram Displays</a></li>
+        <li><a href="/monitoring/buildings/">Buildings</a></li>
+        <li><a href="/monitoring/nsmp/"><abbr title="National Strong Motion Project">NSMP</abbr> &ndash; Strong Motion</a></li>
+        <li><a href="/monitoring/deformation/">Crustal Deformation</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="/research/?source=sitemap">Research</a>
+      <ul>
+        <li><a href="/research/faults/">Characterizing Faults</a></li>
+        <li><a href="/research/earlywarning/">Early Warning</a></li>
+        <li><a href="/research/deformation/">Crustal Deformation</a></li>
+        <li><a href="/research/eqproc/">Earthquake Processes</a></li>
+        <li><a href="/research/groundfailure/">Ground Failure</a></li>
+        <li><a href="/research/groundmotion/">Ground Motion</a></li>
+        <li><a href="/research/hazrisk/">Hazard &amp; Risk Assessment</a></li>
+        <li><a href="/research/monitoring/">Improving Monitoring</a></li>
+        <li><a href="/research/induced/">Induced Earthquakes</a></li>
+        <li><a href="/research/external/">External Support</a></li>
+        <li><a href="/research/index.php">Regional Science Activities</a></li>
+        <li><a href="/research/software/">Software</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<hr />
+
+<div id="usgsnav">
+	<ul>
+		<li><a href="http://www.usgs.gov/laws/accessibility.html" title="Accessibility Policy (Section 508)">Accessibility</a></li>
+		<li><a href="http://www.usgs.gov/foia/"><abbr title="Freedom of Information Act">FOIA</abbr></a></li>
+		<li><a href="http://www.usgs.gov/laws/privacy.html" title="Privacy policies of the U.S. Geological Survey.">Privacy</a></li>
+		<li><a href="http://www.usgs.gov/laws/policies_notices.html" title="Policies and notices that govern information posted on USGS Web sites.">Policies and Notices</a></li>
+		<li><a href="http://www.nehrp.gov" class="nehrp">In partnership with <abbr title="National Earthquake Hazards Reduction Program">n<span class="e">e</span>hrp</abbr></a></li>
+		<li><a href="http://www.usa.gov/" class="usagov" title="USAGov: Government Made Easy"><img src="/template/images/usagov.jpg" alt="USA.gov" width="90" height="26" /></a></li>
+	</ul>
+</div>
+<div id="footer">
+	<p>
+		<a href="http://www.doi.gov/index.cfm">U.S. Department of the Interior</a> | <a href="http://www.usgs.gov/">U.S. Geological Survey</a><br />
+		Page URL: http://earthquake.usgs.gov/earthquakes/<br />
+		Page Contact Information: <a target="_blank" href="mailto:sis_eq_questions@usgs.gov?subject=EHP%20Website%20Email%20">Contact Us</a><br />
+		Page Last Modified: June 23, 2015 16:03:57 UTC	</p>
+	<small class="disclaimer"><a href="/earthquakes/errata.php">Earthquake Errata</a></small></div>
+<script type="text/javascript" src="/contactus/js/ContactValidator.js"></script><script type="text/javascript" src="/contactus/js/FAQFilter.js"></script><script type="text/javascript" src="/contactus/js/contactus.js"></script><script type="text/javascript" src="/template/widgets/ui/ui.js"></script><script type="text/javascript" src="/template/widgets/tipsy/tipsy.min.js"></script><script type="text/javascript" src="/js/home.js"></script><script type="text/javascript" src="/js/require.js"></script>
+<!--[if lt IE 7]><script type="text/javascript" src="/js/minmax.js"></script><![endif]-->
+<!--[if lt IE 8]><script type="text/javascript" src="/template/js/offsite.js"></script><![endif]-->
+
+
+</body>
+</html>
